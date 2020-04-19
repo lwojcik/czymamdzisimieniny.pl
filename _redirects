@@ -1,4 +1,6 @@
 # These rules will change if you change your site’s custom domains or HTTPS settings
+https://czymamdzisimieniny.pl/*https://www.czymamdzisimieniny.pl/:splat 301!
 
 # Redirect default Netlify subdomain to primary domain
+https://czymamdzisimieniny.netlify.app/* https://www.czymamdzisimieniny.pl/:splat 301!
 https://czymamdzisimieniny.netlify.com/* https://www.czymamdzisimieniny.pl/:splat 301!
